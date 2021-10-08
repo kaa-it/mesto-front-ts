@@ -1,0 +1,12 @@
+.favorite__list {
+  display: grid;
+  grid-gap: 18px;
+  grid-template-columns: repeat(1000, 282px);
+  grid-template-rows: minmax(150px, 1fr);
+
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
